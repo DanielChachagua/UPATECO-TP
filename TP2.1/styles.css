@@ -1,0 +1,10 @@
+/* Estilos para el encabezado */
+header {
+    background-color: gray;
+    padding: 10px; 
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: red;
+    padding: 10px;
+}
