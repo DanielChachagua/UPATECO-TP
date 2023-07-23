@@ -2,9 +2,9 @@
 
 **Tema: HTML**
 
-> **Martínez, Cruz Flavio Guillermo**
-> **Daniel Chachagua**
-> **Dante Alberto Martinez**
+> **Martínez, Cruz Flavio Guillermo**, 
+> **Daniel Chachagua**, 
+> **Dante Alberto Martinez**, 
 > **Gonzalez Gaston Ariel**
 > 
 > *Comisión CN*
@@ -303,6 +303,28 @@
 # Ejercicio 9
 
 No se han encontrado errores de sintaxis ni de sematica.
+Lo único que podria tratarse de algo cuestionable es el en Ejercicio 1 - 2:
+
+```html
+<form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Juan" required><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" value="Valdez" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="30" placeholder="Escribe tu mensaje aquí, por favor, solo cosas buenas..."></textarea><br>
+
+        <input type="submit" value="Enviar!">
+```
+`name="nombre" value="Juan"` donde lo más recomendable sería usar un `placeholder="Contenido deseado aqui"`
 
 # Ejercicio 10
 
