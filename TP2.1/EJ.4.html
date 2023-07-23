@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black; /* Agregamos un borde a toda la tabla */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th.vertical-header {
+            writing-mode: vertical-lr; /* Cabecera lateral con horas del día */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="horizontal-header"> Horario </th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="horizontal-header">8:00 - 16:00</th>
+                <td>Trabajo</td>
+                <td>Trabajo</td>
+                <td>Trabajo</td>
+                <td>Trabajo</td>
+                <td>Trabajo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th class="horizontal-header">16:00 - 17:30</th>
+                <td>Ejercicio</td>
+                <td>Futbol</td>
+                <td>Ejercicio</td>
+                <td>Futbol</td>
+                <td>Ejercicio</td>
+                <td>Tiempo libre</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th class="horizontal-header">17:30 - 22:00</th>
+                <td>Estudio</td>
+                <td>Estudio</td>
+                <td>Estudio</td>
+                <td>Estudio</td>
+                <td>Estudio</td>
+                <td>Juntada con amigos</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <th class="horizontal-header">22:00 - 00:00</th>
+                <td>Proyectos</td>
+                <td>Proyectos</td>
+                <td>Pasatiempos</td>
+                <td>Pasatiempos</td>
+                <td>Vicios</td>
+                <td>Juntada con amigos</td>
+                <td>Descanso</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
