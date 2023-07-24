@@ -14,17 +14,15 @@
 
 Etiqueta <video> mal cerrada: La etiqueta <video> se encuentra mal cerrada. La etiqueta de cierre </video> debe estar fuera del div que contiene el texto y no dentro de él.
 
-Atributo type incorrecto en la etiqueta <source>: El atributo type de la etiqueta <source> dentro de la etiqueta <video> debe indicar el tipo de archivo del video, pero actualmente tiene el valor type="image/png", que indica que el archivo es una imagen PNG, no un video. El tipo correcto del video podria ser: type="video/mp4" si el video es en formato MP4.
+Atributo type incorrecto en la etiqueta <source>: El atributo type de la etiqueta <source> dentro de la etiqueta <video> debe indicar el tipo de archivo del video, pero actualmente tiene el valor type="image/png", que indica que el archivo es una imagen PNG, no un video. El tipo correcto del video podria ser: `type="video/mp4"` si el video es en formato MP4.
 
-Etiqueta <br> mal cerrada: La etiqueta <br> tiene un cierre incompleto, debe ser <br> en lugar de <br>.
+Etiqueta de cierre `</div>` incorrecta: La etiqueta de cierre `</div>` después de la etiqueta <video> está mal ubicada. Debe estar antes de la etiqueta `</video>`.
 
-Etiqueta de cierre </div> incorrecta: La etiqueta de cierre </div> después de la etiqueta <video> está mal ubicada. Debe estar antes de la etiqueta </video>.
+Falta de la extensión de archivo en la etiqueta `<img>`: La etiqueta `<img>` debería tener una extensión de archivo especificada en el atributo src, por ejemplo, `<img src="./image.png">`.
 
-Falta de la extensión de archivo en la etiqueta <img>: La etiqueta <img> debería tener una extensión de archivo especificada en el atributo src, por ejemplo, <img src="./image.png">.
+Falta de la extensión de archivo en la etiqueta `<link>`: La etiqueta `<link>` para cargar el archivo CSS debería tener una extensión de archivo en el atributo href, por ejemplo, `<link rel="stylesheet" href="./index.css">`.
 
-Falta de la extensión de archivo en la etiqueta <link>: La etiqueta <link> para cargar el archivo CSS debería tener una extensión de archivo en el atributo href, por ejemplo, <link rel="stylesheet" href="./index.css">.
-
-Atributo width y height incorrecto en la etiqueta <img>: Los valores para los atributos width y height de la etiqueta <img> no están especificados correctamente. Deben ser enteros y sin espacios, por ejemplo, <img src="./img/logo.jpg" alt="logo" width="100" height="100">.
+Atributo width y height incorrecto en la etiqueta `<img>`: Los valores para los atributos width y height de la etiqueta <img> no están especificados correctamente. Deben ser enteros y sin espacios, por ejemplo, `<img src="./img/logo.jpg" alt="logo" width="100" height="100">`.
 
 # Ejercicio 10
 
