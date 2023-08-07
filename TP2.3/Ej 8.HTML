@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tabla">
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Edad</th>
+          <th>Sexo</th>
+          <th>Teléfono</th>
+        </tr>
+    </table>
+    
+    <script>
+        const persona = {
+        nombre: 'Juan',
+        apellido: 'Pérez',
+        edad: 25,
+        sexo: 'Masculino',
+        telefono: '1234567890',
+        };
+        
+        const tabla = document.getElementById('tabla');
+        const fila = tabla.insertRow();
+        fila.insertCell().textContent = persona.nombre;
+        fila.insertCell().textContent = persona.apellido;
+        fila.insertCell().textContent = persona.edad;
+        fila.insertCell().textContent = persona.sexo;
+        fila.insertCell().textContent = persona.telefono;
+    </script>
+      
+</body>
+</html>
