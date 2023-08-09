@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p" disable style="display: block;">Soy un p, pero deveria haber un div, presiona el boton</p>
+    <div id="div" style="background: aquamarine; display: none;">Estas viendo un div</div>
+    <button id="miboton" onclick="mostrar_ocultar_div()">Mostrar</button>
+</body>
+    <script>
+        var visible=true;
+        function mostrar_ocultar_div(){
+            visible=!visible;
+            let etiqueta_p= document.getElementById("p");
+            let etiqueta_div= document.getElementById("div");
+            let etiqueta_boton= document.getElementById("miboton");
+            if (visible){
+                etiqueta_p.style.display="block";
+                etiqueta_div.style.display="none";
+                etiqueta_boton.textContent="Mostrar";
+            }else{
+                etiqueta_div.style.display="block";
+                etiqueta_p.style.display="none";
+                etiqueta_boton.textContent="Ocultar";
+            }
+
+        }
+    </script>
+</html>
